@@ -2,7 +2,7 @@ name: auto sign second
 
 on:
   schedule:
-    - cron: '* 6,14,16 * * *' # 每天在国际标准时间16点（北京时间凌晨0点）运行
+    - cron: '0/5 * * * *' # 每天在国际标准时间16点（北京时间凌晨0点）运行
 
 jobs:
   build:
